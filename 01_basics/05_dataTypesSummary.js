@@ -35,5 +35,31 @@ const myFunction = function() {
     console.log("hello World");
     
 }
-console.log(typeof heros);
+// console.log(typeof heros);
+// **********************************************************
+
+// stack (Premitive), Heap (Non Premitive)
+
+let myName = "Ahsan"
+
+let anotherName = myName
+anotherName = "Ahsankhan"
+ 
+// console.log(anotherName);
+// console.log(myName);
+
+let userOne = {
+    email : "ahsanGooogle.com",
+    user : "user@ybl" ,
+}
+
+let userTwo = userOne
+userTwo.email = "anusgoogle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
 
