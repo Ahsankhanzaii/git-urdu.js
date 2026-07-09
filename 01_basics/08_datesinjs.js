@@ -27,8 +27,8 @@ let newDate = new Date();
 
 // console.log(`${newDate.getDay()} and the time is 7pm`)
 
-myDate.toLocaleString('default'{
-    weekday: "long"
-})
+// myDate.toLocaleString('default'{
+//     weekday: "long"
+// })
 
 
